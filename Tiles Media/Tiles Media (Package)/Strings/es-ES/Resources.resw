@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnyMedia" xml:space="preserve">
+    <value>Cualquier Streaming</value>
+  </data>
+  <data name="APIID" xml:space="preserve">
+    <value>API Clave</value>
+  </data>
+  <data name="APIIDOpen" xml:space="preserve">
+    <value>Abrir API Clave</value>
+  </data>
+  <data name="AppClosingMessage1" xml:space="preserve">
+    <value>Esta aplicación es de código abierto y puedes consultarlo en Github, y si tienes cuenta allí te agradecería una estrella</value>
+  </data>
+  <data name="AppClosingMessage2" xml:space="preserve">
+    <value>Puedes valorar la aplicación en la Tienda de Microsoft, no te voy a decir como debes valorarme pero espero que tengáis en cuenta que soy un único desarrollador con la aplicación</value>
+  </data>
+  <data name="AppClosingMessage3" xml:space="preserve">
+    <value>Puedes consultar las últimas actualizaciones que he lanzado para esta aplicación en mi web, no esperéis kilométricas actualizaciones por que sólo dos manos trabajan en esta aplicación</value>
+  </data>
+  <data name="AppClosingNo.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="AppClosingQuestion.Text" xml:space="preserve">
+    <value>¿Deseas cerrar la aplicación?</value>
+  </data>
+  <data name="AppClosingYes.Text" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="Bottom.Text" xml:space="preserve">
+    <value>Abajo</value>
+  </data>
+  <data name="Center.Text" xml:space="preserve">
+    <value>Centrada</value>
+  </data>
+  <data name="ChooseImage.Text" xml:space="preserve">
+    <value>Tipo de imagen que usará el widget</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Contact.Text" xml:space="preserve">
+    <value>Contactar</value>
+  </data>
+  <data name="Customization.Text" xml:space="preserve">
+    <value>Personalización</value>
+  </data>
+  <data name="Data.Text" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="DisneyPlusError" xml:space="preserve">
+    <value>Error buscando en Disney+</value>
+  </data>
+  <data name="DisneyPlusOptionsSearchAPI.Text" xml:space="preserve">
+    <value>La aplicación usa la API de Google para buscar películas y series de Disney+, dadas las limitaciones de esta API es fácil alcanzar el límite diario y por esa razón te doy la opción de usar la API con tu cuenta de Google</value>
+  </data>
+  <data name="Executable.Text" xml:space="preserve">
+    <value>Ejecutable</value>
+  </data>
+  <data name="Executable2.Text" xml:space="preserve">
+    <value>Esta línea de texto ejecutará la tile, puede ser un enlace http o un protocolo browser si la aplicación de la plataforma es compatible</value>
+  </data>
+  <data name="Fill.Text" xml:space="preserve">
+    <value>Rellenar</value>
+  </data>
+  <data name="ImageBig.Text" xml:space="preserve">
+    <value>Imagen Grande</value>
+  </data>
+  <data name="ImageMedium.Text" xml:space="preserve">
+    <value>Imagen Mediana</value>
+  </data>
+  <data name="ImageSmall.Text" xml:space="preserve">
+    <value>Imagen Pequeña</value>
+  </data>
+  <data name="ImageWide.Text" xml:space="preserve">
+    <value>Imagen Ancha</value>
+  </data>
+  <data name="Left.Text" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="MenuContact" xml:space="preserve">
+    <value>Contactar</value>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="MenuGithub" xml:space="preserve">
+    <value>Código Fuente</value>
+  </data>
+  <data name="MenuPatchNotes" xml:space="preserve">
+    <value>Últimas Actualizaciones</value>
+  </data>
+  <data name="MenuRate" xml:space="preserve">
+    <value>Calificar la Aplicación</value>
+  </data>
+  <data name="NetflixError" xml:space="preserve">
+    <value>Error buscando en Netflix</value>
+  </data>
+  <data name="NetflixOptionsSearchAPI.Text" xml:space="preserve">
+    <value>La aplicación usa la API de Google para buscar películas y series de Netflix, dadas las limitaciones de esta API es fácil alcanzar el límite diario y por esa razón te doy la opción de usar la API con tu cuenta de Google</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="Open.Text" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Options2.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="OptionsApp.Text" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="OptionsAppCleanButton.Text" xml:space="preserve">
+    <value>Limpiar Datos</value>
+  </data>
+  <data name="OptionsAppCleanInfo.Text" xml:space="preserve">
+    <value>Limpiar Datos</value>
+  </data>
+  <data name="OptionsAppCleanInfo2.Text" xml:space="preserve">
+    <value>Todos los datos y ficheros generados por la aplicación serán eliminados, cuando termine se reiniciará la aplicación como si fuera una instalación limpia</value>
+  </data>
+  <data name="OptionsAppWindow1.Text" xml:space="preserve">
+    <value>Defecto</value>
+  </data>
+  <data name="OptionsAppWindow2.Text" xml:space="preserve">
+    <value>Pantalla Completa</value>
+  </data>
+  <data name="OptionsAppWindow3.Text" xml:space="preserve">
+    <value>Superpuesta</value>
+  </data>
+  <data name="OptionsAppWindowInfo.Text" xml:space="preserve">
+    <value>Modo en el que se mostrará la aplicación en Windows</value>
+  </data>
+  <data name="OptionsLanguageInfo.Text" xml:space="preserve">
+    <value>Idioma de la aplicación</value>
+  </data>
+  <data name="OptionsLanguageInfo2.Text" xml:space="preserve">
+    <value>Es necesario un reinicio en la aplicación para efectuar el cambio</value>
+  </data>
+  <data name="OptionsLaunch.Text" xml:space="preserve">
+    <value>¿Que abrirá el widget de esta plataforma?</value>
+  </data>
+  <data name="OptionsLaunchApp.Text" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="OptionsLaunchWebBrower.Text" xml:space="preserve">
+    <value>Navegador Web</value>
+  </data>
+  <data name="OrientationHorizontal.Text" xml:space="preserve">
+    <value>Orientación Horizontal</value>
+  </data>
+  <data name="OrientationVertical.Text" xml:space="preserve">
+    <value>Orientación Vertical</value>
+  </data>
+  <data name="PresentationMessage.Text" xml:space="preserve">
+    <value>Selecciona el streaming que quieres añadir como widget:</value>
+  </data>
+  <data name="Right.Text" xml:space="preserve">
+    <value>Derecha</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SearchError" xml:space="preserve">
+    <value>Ha habido demasiadas búsquedas en la API de Google que usa esta app, pero se puede cambiar desde Opciones</value>
+  </data>
+  <data name="SearchID" xml:space="preserve">
+    <value>Buscador Clave</value>
+  </data>
+  <data name="SearchIDOpen" xml:space="preserve">
+    <value>Abrir Buscador Clave</value>
+  </data>
+  <data name="SpotifyAlbums.Text" xml:space="preserve">
+    <value>Álbumes</value>
+  </data>
+  <data name="SpotifyArtists.Text" xml:space="preserve">
+    <value>Artistas</value>
+  </data>
+  <data name="SpotifyGoOptions.Text" xml:space="preserve">
+    <value>Si quieres añadir Widgets de tus albums o playlists de Spotify, debes ir a Opciones y seguir las instrucciones para configurarlo.</value>
+  </data>
+  <data name="SpotifyGoOptions2.Text" xml:space="preserve">
+    <value>Ir a Opciones</value>
+  </data>
+  <data name="SpotifyOptions.Text" xml:space="preserve">
+    <value>Debido a las restricciones en la API de Spotify, si quieres añadir un widget de esta plataforma debéis crear en la sección de desarrolladores una aplicación:</value>
+  </data>
+  <data name="SpotifyOptionsHelp.Text" xml:space="preserve">
+    <value>Mostrar donde se hace</value>
+  </data>
+  <data name="SpotifyOptionsOpenLink" xml:space="preserve">
+    <value>Abrir Enlace a Desarrolladores de Spotify</value>
+  </data>
+  <data name="SpotifyPlaylists.Text" xml:space="preserve">
+    <value>Listas</value>
+  </data>
+  <data name="Stretch.Text" xml:space="preserve">
+    <value>Estiramiento</value>
+  </data>
+  <data name="Stretch2.Text" xml:space="preserve">
+    <value>Estirada</value>
+  </data>
+  <data name="TileAddMedia.Text" xml:space="preserve">
+    <value>Añadir Tile del Streaming</value>
+  </data>
+  <data name="TileAddMediaMessage.Text" xml:space="preserve">
+    <value>Si estás usando Windows 11 la aplicación solo puede añadir la Tile Pequeña en el menú de Inicio</value>
+  </data>
+  <data name="TileAddMediaPreview.Text" xml:space="preserve">
+    <value>Vista previa de la Tile</value>
+  </data>
+  <data name="TileBig.Text" xml:space="preserve">
+    <value>Tile Grande</value>
+  </data>
+  <data name="TileBigImage.Text" xml:space="preserve">
+    <value>Imagen para la Tile Grande (310x310)</value>
+  </data>
+  <data name="TileBigImage2.Text" xml:space="preserve">
+    <value>Esta línea de texto contiene el enlace para la imagen de la Tile Grande</value>
+  </data>
+  <data name="TileMedium.Text" xml:space="preserve">
+    <value>Tile Mediana</value>
+  </data>
+  <data name="TileMediumImage.Text" xml:space="preserve">
+    <value>Imagen para la Tile Mediana (150x150)</value>
+  </data>
+  <data name="TileMediumImage2.Text" xml:space="preserve">
+    <value>Esta línea de texto contiene el enlace para la imagen de la Tile Mediana</value>
+  </data>
+  <data name="TileSmall.Text" xml:space="preserve">
+    <value>Tile Pequeña</value>
+  </data>
+  <data name="TileSmallImage.Text" xml:space="preserve">
+    <value>Imagen para la Tile Pequeña (44x44)</value>
+  </data>
+  <data name="TileSmallImage2.Text" xml:space="preserve">
+    <value>Esta línea de texto contiene el enlace para la imagen de la Tile Pequeña</value>
+  </data>
+  <data name="TileWide.Text" xml:space="preserve">
+    <value>Tile Ancha</value>
+  </data>
+  <data name="TileWideImage.Text" xml:space="preserve">
+    <value>Imagen para la Tile Ancha (310x150)</value>
+  </data>
+  <data name="TileWideImage2.Text" xml:space="preserve">
+    <value>Esta línea de texto contiene el enlace para la imagen de la Tile Ancha</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Title2.Text" xml:space="preserve">
+    <value>Esta línea de texto contiene el título del juego que usará la Tile</value>
+  </data>
+  <data name="Top.Text" xml:space="preserve">
+    <value>Arriba</value>
+  </data>
+  <data name="TrialBuyApp.Text" xml:space="preserve">
+    <value>Comprar Aplicación</value>
+  </data>
+  <data name="TrialMessage.Text" xml:space="preserve">
+    <value>Estás usando una version trial de la aplicación, la unica diferencia respecto a la version comprada es que no aparecerá este mensaje molesto.</value>
+  </data>
+  <data name="Uniform.Text" xml:space="preserve">
+    <value>Uniforme</value>
+  </data>
+  <data name="UniformFill.Text" xml:space="preserve">
+    <value>Uniforme y Rellenar</value>
+  </data>
+</root>

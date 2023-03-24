@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0'">
+    <VisualStudioVersion>15.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
+    <PathToXAMLWinRTImplementations>Tiles Media\</PathToXAMLWinRTImplementations>
+  </PropertyGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
+  <PropertyGroup>
+    <ProjectGuid>b61bdd73-b96f-47b8-86ee-4bbbcf3aae47</ProjectGuid>
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <AssetTargetFallback>net6.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <EntryPointProjectUniqueName>..\Tiles Media\Tiles Media.csproj</EntryPointProjectUniqueName>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundlePlatforms>x86|x64|arm64</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Logos\BadgeLogo.scale-100.png" />
+    <Content Include="Images\Logos\BadgeLogo.scale-125.png" />
+    <Content Include="Images\Logos\BadgeLogo.scale-150.png" />
+    <Content Include="Images\Logos\BadgeLogo.scale-200.png" />
+    <Content Include="Images\Logos\BadgeLogo.scale-400.png" />
+    <Content Include="Images\Logos\LargeTile.scale-100.png" />
+    <Content Include="Images\Logos\LargeTile.scale-125.png" />
+    <Content Include="Images\Logos\LargeTile.scale-150.png" />
+    <Content Include="Images\Logos\LargeTile.scale-200.png" />
+    <Content Include="Images\Logos\LargeTile.scale-400.png" />
+    <Content Include="Images\Logos\SmallTile.scale-100.png" />
+    <Content Include="Images\Logos\SmallTile.scale-125.png" />
+    <Content Include="Images\Logos\SmallTile.scale-150.png" />
+    <Content Include="Images\Logos\SmallTile.scale-200.png" />
+    <Content Include="Images\Logos\SmallTile.scale-400.png" />
+    <Content Include="Images\Logos\SplashScreen.scale-100.png" />
+    <Content Include="Images\Logos\SplashScreen.scale-125.png" />
+    <Content Include="Images\Logos\SplashScreen.scale-150.png" />
+    <Content Include="Images\Logos\SplashScreen.scale-200.png" />
+    <Content Include="Images\Logos\SplashScreen.scale-400.png" />
+    <Content Include="Images\Logos\Square150x150Logo.scale-100.png" />
+    <Content Include="Images\Logos\Square150x150Logo.scale-125.png" />
+    <Content Include="Images\Logos\Square150x150Logo.scale-150.png" />
+    <Content Include="Images\Logos\Square150x150Logo.scale-200.png" />
+    <Content Include="Images\Logos\Square150x150Logo.scale-400.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-unplated_targetsize-24.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Images\Logos\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Images\Logos\Square44x44Logo.scale-100.png" />
+    <Content Include="Images\Logos\Square44x44Logo.scale-125.png" />
+    <Content Include="Images\Logos\Square44x44Logo.scale-150.png" />
+    <Content Include="Images\Logos\Square44x44Logo.scale-200.png" />
+    <Content Include="Images\Logos\Square44x44Logo.scale-400.png" />
+    <Content Include="Images\Logos\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Images\Logos\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Images\Logos\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Images\Logos\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Images\Logos\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Images\Logos\StoreLogo.scale-100.png" />
+    <Content Include="Images\Logos\StoreLogo.scale-125.png" />
+    <Content Include="Images\Logos\StoreLogo.scale-150.png" />
+    <Content Include="Images\Logos\StoreLogo.scale-200.png" />
+    <Content Include="Images\Logos\StoreLogo.scale-400.png" />
+    <Content Include="Images\Logos\Wide310x150Logo.scale-100.png" />
+    <Content Include="Images\Logos\Wide310x150Logo.scale-125.png" />
+    <Content Include="Images\Logos\Wide310x150Logo.scale-150.png" />
+    <Content Include="Images\Logos\Wide310x150Logo.scale-200.png" />
+    <Content Include="Images\Logos\Wide310x150Logo.scale-400.png" />
+    <Content Include="Images\tilesstreaming_logo.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <PRIResource Include="Strings\en-US\Resources.resw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </PRIResource>
+    <PRIResource Include="Strings\es-ES\Resources.resw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tiles Media\Tiles Media.csproj">
+      <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
+      <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.WinUI.Notifications" Version="7.1.2" />
+    <PackageReference Include="CommunityToolkit.WinUI.UI.Controls" Version="7.1.2" />
+    <PackageReference Include="CommunityToolkit.WinUI.UI.Media" Version="7.1.2" />
+    <PackageReference Include="FontAwesome6.Fonts.WinUI" Version="2.5.1" />
+    <PackageReference Include="Google.Apis.CustomSearchAPI.v1" Version="1.60.0.2455" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230313.1">
+      <IncludeAssets>build</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756">
+      <IncludeAssets>build</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SpotifyAPI.Web" Version="7.0.0" />
+  </ItemGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
+</Project>
