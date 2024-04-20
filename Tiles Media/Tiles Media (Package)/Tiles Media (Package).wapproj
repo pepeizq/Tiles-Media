@@ -148,14 +148,14 @@
     <PackageReference Include="CommunityToolkit.WinUI.UI.Controls" Version="7.1.2" />
     <PackageReference Include="CommunityToolkit.WinUI.UI.Media" Version="7.1.2" />
     <PackageReference Include="FontAwesome6.Fonts.WinUI" Version="2.5.1" />
-    <PackageReference Include="Google.Apis.CustomSearchAPI.v1" Version="1.60.0.2455" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230313.1">
+    <PackageReference Include="Google.Apis.CustomSearchAPI.v1" Version="1.67.0.3372" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240404000">
       <IncludeAssets>build</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756">
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.3233">
       <IncludeAssets>build</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="SpotifyAPI.Web" Version="7.0.0" />
+    <PackageReference Include="SpotifyAPI.Web" Version="6.3.0" />
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
 </Project>

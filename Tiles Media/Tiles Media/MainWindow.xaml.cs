@@ -22,7 +22,6 @@ namespace Tiles_Media
             Pestañas.Cargar();
             ScrollViewers.Cargar();
             Interfaz.Menu.Cargar();
-            Trial.Cargar();
 
             Netflix.Cargar();
             DisneyPlus.Cargar();
@@ -69,8 +68,6 @@ namespace Tiles_Media
 
             Objetos.svPresentacion = svPresentacion;
             Objetos.gvPresentacionPlataformas = gvPresentacionPlataformas;
-            Objetos.spPresentacionTrial = spPresentacionTrial;
-            Objetos.botonPresentacionTrialComprar = botonPresentacionTrialComprar;
 
             //-------------------------------------------------------------------
 
@@ -207,8 +204,6 @@ namespace Tiles_Media
 
             public static ScrollViewer svPresentacion { get; set; }
             public static AdaptiveGridView gvPresentacionPlataformas { get; set; }
-            public static StackPanel spPresentacionTrial { get; set; }
-            public static Button botonPresentacionTrialComprar { get; set; }
 
             //-------------------------------------------------------------------
 
