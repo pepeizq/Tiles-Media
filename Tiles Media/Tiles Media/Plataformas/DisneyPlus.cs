@@ -249,7 +249,7 @@ namespace Plataformas
 
                                         streaming.imagenPequeña = temp5.Trim();
 
-                                        int int6 = html.IndexOf("<meta name=" + Strings.ChrW(34) + "twitter:image" + Strings.ChrW(34));
+                                        int int6 = html.IndexOf("<meta property=" + Strings.ChrW(34) + "twitter:image" + Strings.ChrW(34));
                                         string temp6 = html.Remove(0, int6);
 
                                         int int7 = temp6.IndexOf("content=");
